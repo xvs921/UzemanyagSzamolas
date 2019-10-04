@@ -1,0 +1,1 @@
+console.log('A számítógép használatra kész.');
