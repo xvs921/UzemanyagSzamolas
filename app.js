@@ -26,7 +26,7 @@ function calculateFuelToOffload() {
     // 2. lépés: Számolja ki a lecsapolandó üzemanyagot.
     var fuelToOffload = tankCapacity - requiredFuel;
     //console.log('A leeresztendő üzemanyagmennyiség: ' + fuelToOffload + ' L');
+    // 5) Írd ki az eredményt a felhasználónak.
     alert('Szükséges üzemanyagmennyiség: ' + requiredFuel + ' L.\nA leeresztendő üzemanyagmennyiség: ' + fuelToOffload + ' L.');
 }
 calculateFuelToOffload();
-// 5) Írd ki az eredményt a felhasználónak.
